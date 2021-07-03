@@ -1,0 +1,125 @@
+2021-06-21 22:27:40,448 logger.py [line:35] INFO: 123
+2021-06-21 22:27:40,448 logger.py [line:36] DEBUG: 456
+2021-06-21 22:32:52,924 logger.py [line:35] INFO: 123
+2021-06-21 22:32:52,924 logger.py [line:36] DEBUG: 456
+2021-06-21 22:33:28,145 logger.py [line:35] INFO: 123
+2021-06-21 22:33:28,145 logger.py [line:36] DEBUG: 456
+2021-06-21 22:33:52,134 logger.py [line:35] INFO: 123
+2021-06-21 22:33:52,134 logger.py [line:36] DEBUG: 456
+2021-06-21 22:34:30,302 logger.py [line:35] INFO: 123
+2021-06-21 22:34:30,302 logger.py [line:36] DEBUG: 456
+2021-06-21 22:36:38,931 logger.py [line:35] INFO: 123
+2021-06-21 22:36:38,931 logger.py [line:36] DEBUG: 456
+2021-06-21 22:36:58,797 logger.py [line:35] INFO: 123
+2021-06-21 22:36:58,798 logger.py [line:36] DEBUG: 456
+2021-06-21 22:37:47,307 logger.py [line:35] INFO: 123
+2021-06-21 22:37:47,307 logger.py [line:36] DEBUG: 456
+2021-06-21 22:37:47,332 test_login.py [line:29] INFO: 账号为：zhangsan,密码为：123
+2021-06-21 22:37:47,332 test_login.py [line:32] INFO: 运行结果为：{'code': 200, 'message': '登陆成功'}
+2021-06-21 22:37:47,332 test_login.py [line:33] INFO: 实际结果为：{'code': 200, 'message': '登陆成功'}
+2021-06-21 22:37:47,333 test_login.py [line:29] INFO: 账号为：,密码为：123124
+2021-06-21 22:37:47,333 test_login.py [line:32] INFO: 运行结果为：{'code': 1000, 'message': '账号或者密码不允许为空！'}
+2021-06-21 22:37:47,333 test_login.py [line:33] INFO: 实际结果为：{'code': 1000, 'message': '账号或者密码不允许为空！'}
+2021-06-21 22:37:47,333 test_login.py [line:29] INFO: 账号为：zhangsan,密码为：
+2021-06-21 22:37:47,333 test_login.py [line:32] INFO: 运行结果为：{'code': 1000, 'message': '账号或者密码不允许为空！'}
+2021-06-21 22:37:47,333 test_login.py [line:33] INFO: 实际结果为：{'code': 1000, 'message': '账号或者密码不允许为空！'}
+2021-06-21 22:37:47,334 test_login.py [line:29] INFO: 账号为：zhangsan,密码为：123126
+2021-06-21 22:37:47,334 test_login.py [line:32] INFO: 运行结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:37:47,334 test_login.py [line:33] INFO: 实际结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:37:47,334 test_login.py [line:29] INFO: 账号为：zhangsan,密码为：123127
+2021-06-21 22:37:47,334 test_login.py [line:32] INFO: 运行结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:37:47,334 test_login.py [line:33] INFO: 实际结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:37:47,334 test_login.py [line:29] INFO: 账号为：zhangsan,密码为：123128
+2021-06-21 22:37:47,335 test_login.py [line:32] INFO: 运行结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:37:47,335 test_login.py [line:33] INFO: 实际结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:37:47,335 test_login.py [line:29] INFO: 账号为：zhangsan,密码为：123129
+2021-06-21 22:37:47,335 test_login.py [line:32] INFO: 运行结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:37:47,335 test_login.py [line:33] INFO: 实际结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:37:47,335 test_login.py [line:29] INFO: 账号为：zhangsan,密码为：123130
+2021-06-21 22:37:47,335 test_login.py [line:32] INFO: 运行结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:37:47,336 test_login.py [line:33] INFO: 实际结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:37:47,336 test_login.py [line:29] INFO: 账号为：zhangsan,密码为：123131
+2021-06-21 22:37:47,336 test_login.py [line:32] INFO: 运行结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:37:47,336 test_login.py [line:33] INFO: 实际结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:37:47,336 test_login.py [line:29] INFO: 账号为：zhangsan,密码为：123132
+2021-06-21 22:37:47,336 test_login.py [line:32] INFO: 运行结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:37:47,337 test_login.py [line:33] INFO: 实际结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:37:47,337 test_login.py [line:29] INFO: 账号为：zhangsan,密码为：123133
+2021-06-21 22:37:47,337 test_login.py [line:32] INFO: 运行结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:37:47,337 test_login.py [line:33] INFO: 实际结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:37:47,337 test_login.py [line:29] INFO: 账号为：zhangsan,密码为：123134
+2021-06-21 22:37:47,337 test_login.py [line:32] INFO: 运行结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:37:47,337 test_login.py [line:33] INFO: 实际结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:37:47,338 test_login.py [line:29] INFO: 账号为：zhangsan,密码为：123135
+2021-06-21 22:37:47,338 test_login.py [line:32] INFO: 运行结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:37:47,338 test_login.py [line:33] INFO: 实际结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:37:47,338 test_login.py [line:29] INFO: 账号为：zhangsan,密码为：123136
+2021-06-21 22:37:47,338 test_login.py [line:32] INFO: 运行结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:37:47,338 test_login.py [line:33] INFO: 实际结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:37:47,339 test_login.py [line:29] INFO: 账号为：zhangsan,密码为：123137
+2021-06-21 22:37:47,339 test_login.py [line:32] INFO: 运行结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:37:47,339 test_login.py [line:33] INFO: 实际结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:49:42,733 logger.py [line:35] INFO: 123
+2021-06-21 22:49:42,734 logger.py [line:36] DEBUG: 456
+2021-06-21 22:49:53,376 logger.py [line:35] INFO: 123
+2021-06-21 22:49:53,377 logger.py [line:36] DEBUG: 456
+2021-06-21 22:49:53,396 test_login.py [line:29] INFO: 账号为：zhangsan,密码为：123
+2021-06-21 22:49:53,397 test_login.py [line:32] INFO: 运行结果为：{'code': 200, 'message': '登陆成功'}
+2021-06-21 22:49:53,397 test_login.py [line:33] INFO: 实际结果为：{'code': 200, 'message': '登陆成功'}
+2021-06-21 22:49:53,397 test_login.py [line:36] INFO: 测试用例执行通过
+2021-06-21 22:49:53,397 test_login.py [line:29] INFO: 账号为：,密码为：123124
+2021-06-21 22:49:53,397 test_login.py [line:32] INFO: 运行结果为：{'code': 1000, 'message': '账号或者密码不允许为空！'}
+2021-06-21 22:49:53,397 test_login.py [line:33] INFO: 实际结果为：{'code': 1000, 'message': '账号或者密码不允许为空！'}
+2021-06-21 22:49:53,397 test_login.py [line:36] INFO: 测试用例执行通过
+2021-06-21 22:49:53,398 test_login.py [line:29] INFO: 账号为：zhangsan,密码为：
+2021-06-21 22:49:53,398 test_login.py [line:32] INFO: 运行结果为：{'code': 1000, 'message': '账号或者密码不允许为空！'}
+2021-06-21 22:49:53,398 test_login.py [line:33] INFO: 实际结果为：{'code': 1000, 'message': '账号或者密码不允许为空！'}
+2021-06-21 22:49:53,398 test_login.py [line:36] INFO: 测试用例执行通过
+2021-06-21 22:49:53,398 test_login.py [line:29] INFO: 账号为：zhangsan,密码为：123126
+2021-06-21 22:49:53,399 test_login.py [line:32] INFO: 运行结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:49:53,399 test_login.py [line:33] INFO: 实际结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:49:53,399 test_login.py [line:36] INFO: 测试用例执行通过
+2021-06-21 22:49:53,399 test_login.py [line:29] INFO: 账号为：zhangsan,密码为：123127
+2021-06-21 22:49:53,399 test_login.py [line:32] INFO: 运行结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:49:53,399 test_login.py [line:33] INFO: 实际结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:49:53,399 test_login.py [line:36] INFO: 测试用例执行通过
+2021-06-21 22:49:53,400 test_login.py [line:29] INFO: 账号为：zhangsan,密码为：123128
+2021-06-21 22:49:53,400 test_login.py [line:32] INFO: 运行结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:49:53,400 test_login.py [line:33] INFO: 实际结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:49:53,400 test_login.py [line:36] INFO: 测试用例执行通过
+2021-06-21 22:49:53,401 test_login.py [line:29] INFO: 账号为：zhangsan,密码为：123129
+2021-06-21 22:49:53,401 test_login.py [line:32] INFO: 运行结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:49:53,401 test_login.py [line:33] INFO: 实际结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:49:53,401 test_login.py [line:36] INFO: 测试用例执行通过
+2021-06-21 22:49:53,401 test_login.py [line:29] INFO: 账号为：zhangsan,密码为：123130
+2021-06-21 22:49:53,401 test_login.py [line:32] INFO: 运行结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:49:53,401 test_login.py [line:33] INFO: 实际结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:49:53,401 test_login.py [line:36] INFO: 测试用例执行通过
+2021-06-21 22:49:53,402 test_login.py [line:29] INFO: 账号为：zhangsan,密码为：123131
+2021-06-21 22:49:53,402 test_login.py [line:32] INFO: 运行结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:49:53,402 test_login.py [line:33] INFO: 实际结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:49:53,402 test_login.py [line:36] INFO: 测试用例执行通过
+2021-06-21 22:49:53,402 test_login.py [line:29] INFO: 账号为：zhangsan,密码为：123132
+2021-06-21 22:49:53,402 test_login.py [line:32] INFO: 运行结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:49:53,402 test_login.py [line:33] INFO: 实际结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:49:53,402 test_login.py [line:36] INFO: 测试用例执行通过
+2021-06-21 22:49:53,403 test_login.py [line:29] INFO: 账号为：zhangsan,密码为：123133
+2021-06-21 22:49:53,403 test_login.py [line:32] INFO: 运行结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:49:53,403 test_login.py [line:33] INFO: 实际结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:49:53,403 test_login.py [line:36] INFO: 测试用例执行通过
+2021-06-21 22:49:53,403 test_login.py [line:29] INFO: 账号为：zhangsan,密码为：123134
+2021-06-21 22:49:53,404 test_login.py [line:32] INFO: 运行结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:49:53,404 test_login.py [line:33] INFO: 实际结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:49:53,404 test_login.py [line:36] INFO: 测试用例执行通过
+2021-06-21 22:49:53,404 test_login.py [line:29] INFO: 账号为：zhangsan,密码为：123135
+2021-06-21 22:49:53,404 test_login.py [line:32] INFO: 运行结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:49:53,404 test_login.py [line:33] INFO: 实际结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:49:53,404 test_login.py [line:36] INFO: 测试用例执行通过
+2021-06-21 22:49:53,405 test_login.py [line:29] INFO: 账号为：zhangsan,密码为：123136
+2021-06-21 22:49:53,405 test_login.py [line:32] INFO: 运行结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:49:53,405 test_login.py [line:33] INFO: 实际结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:49:53,405 test_login.py [line:36] INFO: 测试用例执行通过
+2021-06-21 22:49:53,405 test_login.py [line:29] INFO: 账号为：zhangsan,密码为：123137
+2021-06-21 22:49:53,405 test_login.py [line:32] INFO: 运行结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:49:53,405 test_login.py [line:33] INFO: 实际结果为：{'code': 0, 'message': '登陆失败'}
+2021-06-21 22:49:53,405 test_login.py [line:36] INFO: 测试用例执行通过
