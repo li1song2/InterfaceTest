@@ -11,14 +11,18 @@ from Func.login import login
 from unittestreport import ddt, list_data
 from common.logger import log
 import os
+from common.db import my_DB
 
 case_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "date", "testlogin.xlsx")
-print(case_path)
 cases = read_excel(case_path, 'login')
 
 
 @ddt
 class Test_Login(unittest.TestCase):
+
+    def setUp(self) -> None:
+        with my_DB() as my_db:
+            self.my_db = my_db
 
     @list_data(cases)
     def test_login(self, case_date):

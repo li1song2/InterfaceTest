@@ -49,6 +49,6 @@ class my_DB():
 # db1 = my_DB()
 # date = db1.fetch("select * from bookmanger.app01_book", one=False)
 # print(date)
-with my_DB() as db1:
-    res = db1.fetch("select * from bookmanger.app01_book")
-    print(res)
+# with my_DB() as db1:
+#     res = db1.fetch("select * from bookmanger.app01_book")
+#     print(res)
